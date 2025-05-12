@@ -3,19 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algo-Malick-Pros</title>
+    <title>Projets Algo</title>
     <style>
-        img{
-            padding:50%
-            border-radius:50%;
-            width:250px;
-            height:250px;
+        body{
+            background-color: cornflowerblue;
+        }
+        
+    
+p{
+    border:10px solid cyan;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cyan;
+
+}
+header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .malik{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            align-content: center;
+        }
+        table{
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <div>
-        <img src="malik.png" alt="logo">
-    </div>
+    <header text-align="center">
+        <table>
+            <tr>
+        <td><img class="malik" src="malik.png" alt="Logo"> </td>
+                <td><h1>Projets Algo</h1></td>
+                <td><img class="malik" src="iteem_1.ico" alt="Logo"></td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <table>
+            <th><h1>Motus_ITEEM</h1>
+            <img src="python.webp" height="100" width="100" alt="">
+            </th>
+            <tr>
+                <td><strong>Context de l'idee:</strong> <a href="https://github.com/Ouldgeneral/Algo">Code Source</a></td>
+            </tr>
+            <tr>
+               <td> <p><em>Soit C,P,R 3 vecteurs de 5 entier,le vecteur C est rempli aleatoirement par la fonction Rand(x)
+                qui rend un entier entre 0 et x ,l'utilisateur saisi successivement ses propositions pour decouvrir
+                le contenu du vecteur C.
+                Le vecteur R contient le resultat de la proposition qui contient pour chaque case 0,1 et 2.
+                0:si le chiffre correspondant ne figure pas dans le vecteur C.
+                1:si le chiffre correspondant figure et bien placee.
+                2:si le chiffre correspondant existe mais mal placee.</em></p></td>
+            </tr>
+           
+        </table>
+        <strong>Presentation du graphique</strong>
+        <p>Demande a l'utilisateur s'il veut jouer au mot cache sinon vecteur cache <br> 
+   
+            <img src="demande.PNG" alt=""></p>
+            
+            <p>Si oui jouer au mot cache <br>
+            
+                        <img width="650" height="200" src="main.PNG">
+                    <br>
+                        
+                            L'option de jouer au mot permet a l'utilisateur d'explorer une longue liste de mots de <br>
+                            5 lettres auquel il peut en ajouter ses propres mots obeissant au creiters suivant : <br>
+                            5 letrres de longueur et caractere alphabetique seulement. <br>
+                            L'utilisateur ne peut pas effacer les mots inclus par defaut dans le program mais il peut <br> 
+                            supprimer les siens en supprimant le fichier &ldquo;Les_mots.mot&rdquo; qui contient tout <br>
+                            ses nouveaux mots.Ils se peut que l'utilisateur essaye de manipuler le fichier  &ldquo;Les_mots.mot&rdquo; <br>
+                            pour essayer d'introduire des mots qui n'obeisseent pas au regles precedents mais Motus_ITEEM ne prendra en charge <br>
+                            que les mots legal <br>
+                            En jouant au mot cacher les lettres sont automatiquement mis au majuscule si on entre un chiffre dans une case il sera automatiquement supprimer
+                        
+                    
+                    <img src="mot.PNG" ></p>
+                    <p>Si non jouer au vecteur cache <br>
+                    <img src="main1.PNG" width="650" height="200"> <br>
+                    Ici l'utilisateur cherche a deviner les 5 chiffres cache dans le vecteur C 
+                   <br> <img src="vecteur.PNG" ></p>
+                    <h3>Les Fonctionnalites</h3>
+                    <dl>
+                        <dt><strong>Le Boutton Reprendre</strong></dt>
+                        <dd>permet a l'utilisateur de reprendre le jeu elle reinitialise le score et le nombre d'essaie</dd>
+                        <dt><strong>Verifiez</strong></dt>
+                        <dd>permet a l'utilisateur de verifiez sa proposition elle affiche erreur si on rempli pas toutes les 5 cases elle <br> disparait quand on gagne ou on perd apres 5 essaies elle reapparait au prochain jeu</dd>
+                        <dt><strong>Aidez(Score-nombre de fois aider+1)</strong></dt>
+                        <dd>elle affiche une valeur de ce que l'on cache la valeur est choisi au hasard et retranche du score le nombre de <br>
+                             fois il a utiliser s'il n'as pas suffisament de score ou a utiliser l'aide 3 fois elle ne fonctionne plus elle disparait <br>
+                              et reapparait quand on reprend <br>
+                            <img src="aide.PNG" alt="">
+                            </dd>
+                        <dt><strong>Sortir</strong></dt>
+                        <dd>Quitte le programme</dd>
+                        <dt><strong>A propos</strong></dt>
+                        <dd>Montre quelque infos sur Motus_ITEEM <br>
+                            <img src="about.PNG">
+
+                        </dd>
+                    </dl>
+       
+                
+           
+    </main>
+    
 </body>
 </html>
