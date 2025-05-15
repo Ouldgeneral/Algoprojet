@@ -310,7 +310,7 @@ function aide(){
         return
     }
     var x=Math.abs(Math.round((Math.random()*10)%5)-1)
-    if(deja.indexOf(x)!=-1){
+    if(deja.indexOf(x)!=-1 && deja.length<5){
         return aide()
     }
     var z=document.getElementById("n"+(x+1))
