@@ -1,0 +1,75 @@
+strong{
+            font-size: 50px;
+        }
+        #input{
+            input{
+                width: 50px;
+                height: 50px;
+                font-size: 50px;
+            }
+
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+        #but{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #resultat{
+            
+            display: list-item;
+            text-align: center;
+            font-size: 30px;
+            font-family: monospace;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+        h1,#inf,table{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+
+        }
+  body{
+            background-color: cornflowerblue;
+        }
+        
+    
+p{
+    border:10px solid cyan;
+    border-radius: 20px;
+    text-align: center;
+    background-color: cyan;
+
+}
+header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .malik{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            align-content: center;
+        }
+        table{
+            justify-content: center;
+            align-items: center;
+        }
